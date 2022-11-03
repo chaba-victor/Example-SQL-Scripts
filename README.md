@@ -1,4 +1,4 @@
-# 10 Common SQL Operations
+# 10 Common SQL Operations 
 
 Relational databases (tabular data) are the most common types of databases; it constitutes about 70% of the total data being captured.
 SQL is one of the most used programming languages for manipulating relational data. It is employed actively by Data Analysts/Engineers for manipulation tasks.
