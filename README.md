@@ -1,13 +1,12 @@
-# Example-SQL-Scripts
+# 10 Common SQL Operations
 
 Relational databases (tabular data) are the most common types of databases; it constitutes about 70% of the total data being captured.
-
 SQL is one of the most used programming languages for manipulating relational data. It is employed actively by Data Analysts/Engineers for manipulation tasks.
-
 We will now look through 10 of the most used SQL operations. Let’s get started:
 
 
-1. Limit: Looking at the rows will give you an idea of the values within the different columns of the data table. Fetching and looking at ‘all’ the rows of the data table is an expensive operation, it takes time and resources. So, the functionality to fetch 1st few rows of the data table becomes very helpful. Limit clause is used to fetch the top rows of a data table.
+## 1. Limit
+Looking at the rows will give you an idea of the values within the different columns of the data table. Fetching and looking at ‘all’ the rows of the data table is an expensive operation, it takes time and resources. So, the functionality to fetch 1st few rows of the data table becomes very helpful. Limit clause is used to fetch the top rows of a data table.
 
  2. Distinct: Using Distinct, we can find the distinct values within a column, and applying the count function gives the count of distinct values in that column. For example, we can find the count of distinct (or unique) product ids using the following code.
  
