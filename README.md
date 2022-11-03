@@ -9,7 +9,7 @@ We will now look through 10 of the most used SQL operations. Let’s get started
 Looking at the rows will give you an idea of the values within the different columns of the data table. Fetching and looking at ‘all’ the rows of the data table is an operation that can take a lot of time. The solution to this is to fetch 1st few rows of the data in a table. Limit clause is used to fetch the top rows of data in a table.
 
  ## 2. Distinct
-Using Distinct, we can find the distinct values within a column, and applying the count function gives the count of distinct values in that column. For example, we can find the count of distinct (or unique) product ids using the following code.
+Using Distinct, we can find the distinct values within a column, and applying the count function gives the count of distinct values in that column. For example, we can find the count of distinct (or unique) product ids using the distinct fuction.
  
  ## 3. Aggregation
 Aggregation operation is used to find the sum, count, min, max, etc of the values of a column. For example, if we want to find the total quantity (or units) of products sold we can apply the sum function to the quantity column. Similarly, we can also find the maximum units sold for a product by applying the max function on quantity column.
@@ -23,7 +23,7 @@ Where clause is used to filter the rows based on some column values. For example
 ## 6. Having
 Having clause is used to apply a filter on the aggregated columns/values. For example, imagine we want to find the products having a total quantity sold greater than 350 units, we can use the having clause to apply the filter on aggregated quantity.
 
-##7. Order by
+## 7. Order by
 Order by clause is used to sort the values of a column by ascending (by default) or descending order. For example, if we want to find the products with the maximum quantity sold for the retailer, then we can use the order by function.
 
 ## 8. Join
